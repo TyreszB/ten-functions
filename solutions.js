@@ -36,7 +36,11 @@ function addOne(x){
 }
 
 function isEven(x){
-    return x % 2 === 0;
+    if((x % 2 === 0) && (x !== false)){
+        return true;
+    }else {
+        return false;
+    }
 }
 function isIdentical (x,y){
     return x === y;
