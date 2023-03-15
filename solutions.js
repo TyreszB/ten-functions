@@ -20,4 +20,40 @@
  * and
  * concat
  */
+function isTrue(x){
+    return x === true;
+}
 
+function isFalse(x){
+    return x === false;
+}
+
+function not(x){
+    return x = !x;
+}
+function addOne(x){
+    return Number(x) + 1;
+}
+
+function isEven(x){
+    return x % 2 === 0;
+}
+function isIdentical (x,y){
+    return x === y;
+}
+
+function isEqual(x,y){
+    return x == y;
+}
+
+function or(x,y){
+    return x || y;
+}
+
+function and(x,y){
+    return x && y;
+}
+
+function concat(x,y){
+    return x.toString() + y.toString()
+}
